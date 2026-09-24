@@ -17,7 +17,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   bool pressionado = (digitalRead(pinoBotao) == LOW);
 
   switch (estado) {
